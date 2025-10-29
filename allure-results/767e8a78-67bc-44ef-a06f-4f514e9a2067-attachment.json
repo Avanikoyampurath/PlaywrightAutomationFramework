@@ -1,0 +1,9 @@
+{
+  "query": "\n  mutation CreatePost($input: CreatePostInput!) {\n    createPost(input: $input) {\n      id\n      title\n      body\n    }\n  }\n",
+  "variables": {
+    "input": {
+      "title": "Hi GraphQL",
+      "body": "Testing mutation with Playwright"
+    }
+  }
+}

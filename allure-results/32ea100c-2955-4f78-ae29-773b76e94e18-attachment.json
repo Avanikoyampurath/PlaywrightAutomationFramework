@@ -1,0 +1,9 @@
+{
+  "data": {
+    "createPost": {
+      "id": "101",
+      "title": "Hi GraphQL",
+      "body": "Testing mutation with Playwright"
+    }
+  }
+}

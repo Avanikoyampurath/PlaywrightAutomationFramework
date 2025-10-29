@@ -1,0 +1,6 @@
+{
+  "query": "\n  query GetUser($id: ID!) {\n    user(id: $id) {\n      id\n      name\n      username\n      email\n      phone\n      website\n    }\n  }\n",
+  "variables": {
+    "id": 1
+  }
+}

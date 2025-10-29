@@ -1,0 +1,349 @@
+{
+  "config": {
+    "configFile": "C:\\workspace\\PlaywrightAPIFramework\\playwright.config.ts",
+    "rootDir": "C:/workspace/PlaywrightAPIFramework",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 4
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      ["list", null],
+      [
+        "html",
+        {
+          "open": "always"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/report.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "reports/results.xml"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/workspace/PlaywrightAPIFramework/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 4
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/workspace/PlaywrightAPIFramework",
+        "testIgnore": [],
+        "testMatch": ["**/*.@(spec|test).?(c|m)[jt]s?(x)"],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.56.1",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "graphql\\tests\\post.spec.ts",
+      "file": "graphql/tests/post.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "create new post",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1462,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "GraphQL Response: {\n  data: {\n    createPost: {\n      id: \u001b[32m'101'\u001b[39m,\n      title: \u001b[32m'Hi GraphQL'\u001b[39m,\n      body: \u001b[32m'Testing mutation with Playwright'\u001b[39m\n    }\n  }\n}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-22T05:12:17.772Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0e3e1a29ddd3c9e497f5-cb1b99c463d2695010a1",
+          "file": "graphql/tests/post.spec.ts",
+          "line": 4,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "graphql\\tests\\user.spec.ts",
+      "file": "graphql/tests/user.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "fetch user by ID",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1512,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{\n  data: {\n    user: {\n      id: \u001b[32m'1'\u001b[39m,\n      name: \u001b[32m'Leanne Graham'\u001b[39m,\n      username: \u001b[32m'Bret'\u001b[39m,\n      email: \u001b[32m'Sincere@april.biz'\u001b[39m,\n      phone: \u001b[32m'1-770-736-8031 x56442'\u001b[39m,\n      website: \u001b[32m'hildegard.org'\u001b[39m\n    }\n  }\n}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-22T05:12:17.759Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "bf9576e2b09a122b49f9-9db1f08c6f3a3fce3173",
+          "file": "graphql/tests/user.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "rest\\tests\\deleteRequest.spec.ts",
+      "file": "rest/tests/deleteRequest.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "DELETE user",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 957,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-22T05:12:17.761Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8a1fd1a74877e48c4558-de7a4c62545b53190a1c",
+          "file": "rest/tests/deleteRequest.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "rest\\tests\\getRequest.spec.ts",
+      "file": "rest/tests/getRequest.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Get users",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 813,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{\n  page: \u001b[33m2\u001b[39m,\n  per_page: \u001b[33m6\u001b[39m,\n  total: \u001b[33m12\u001b[39m,\n  total_pages: \u001b[33m2\u001b[39m,\n  data: [\n    {\n      id: \u001b[33m7\u001b[39m,\n      email: \u001b[32m'michael.lawson@reqres.in'\u001b[39m,\n      first_name: \u001b[32m'Michael'\u001b[39m,\n      last_name: \u001b[32m'Lawson'\u001b[39m,\n      avatar: \u001b[32m'https://reqres.in/img/faces/7-image.jpg'\u001b[39m\n    },\n    {\n      id: \u001b[33m8\u001b[39m,\n      email: \u001b[32m'lindsay.ferguson@reqres.in'\u001b[39m,\n      first_name: \u001b[32m'Lindsay'\u001b[39m,\n      last_name: \u001b[32m'Ferguson'\u001b[39m,\n      avatar: \u001b[32m'https://reqres.in/img/faces/8-image.jpg'\u001b[39m\n    },\n    {\n      id: \u001b[33m9\u001b[39m,\n      email: \u001b[32m'tobias.funke@reqres.in'\u001b[39m,\n      first_name: \u001b[32m'Tobias'\u001b[39m,\n      last_name: \u001b[32m'Funke'\u001b[39m,\n      avatar: \u001b[32m'https://reqres.in/img/faces/9-image.jpg'\u001b[39m\n    },\n    {\n      id: \u001b[33m10\u001b[39m,\n      email: \u001b[32m'byron.fields@reqres.in'\u001b[39m,\n      first_name: \u001b[32m'Byron'\u001b[39m,\n      last_name: \u001b[32m'Fields'\u001b[39m,\n      avatar: \u001b[32m'https://reqres.in/img/faces/10-image.jpg'\u001b[39m\n    },\n    {\n      id: \u001b[33m11\u001b[39m,\n      email: \u001b[32m'george.edwards@reqres.in'\u001b[39m,\n      first_name: \u001b[32m'George'\u001b[39m,\n      last_name: \u001b[32m'Edwards'\u001b[39m,\n      avatar: \u001b[32m'https://reqres.in/img/faces/11-image.jpg'\u001b[39m\n    },\n    {\n      id: \u001b[33m12\u001b[39m,\n      email: \u001b[32m'rachel.howell@reqres.in'\u001b[39m,\n      first_name: \u001b[32m'Rachel'\u001b[39m,\n      last_name: \u001b[32m'Howell'\u001b[39m,\n      avatar: \u001b[32m'https://reqres.in/img/faces/12-image.jpg'\u001b[39m\n    }\n  ],\n  support: {\n    url: \u001b[32m'https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral'\u001b[39m,\n    text: \u001b[32m'Tired of writing endless social media content? Let Content Caddy generate it for you.'\u001b[39m\n  },\n  _meta: {\n    powered_by: \u001b[32m'🚀 ReqRes - Deploy backends in 30 seconds'\u001b[39m,\n    upgrade_url: \u001b[32m'https://app.reqres.in/upgrade'\u001b[39m,\n    docs_url: \u001b[32m'https://reqres.in'\u001b[39m,\n    template_gallery: \u001b[32m'https://app.reqres.in/templates'\u001b[39m,\n    message: \u001b[32m'This API is powered by ReqRes. Deploy your own backend in 30 seconds!'\u001b[39m,\n    features: [\n      \u001b[32m'30 Second Backend Templates'\u001b[39m,\n      \u001b[32m'Custom API Endpoints'\u001b[39m,\n      \u001b[32m'Data Persistence'\u001b[39m,\n      \u001b[32m'Real-time Analytics'\u001b[39m\n    ],\n    upgrade_cta: \u001b[32m'Upgrade to Pro for unlimited requests, custom endpoints, and data persistence'\u001b[39m\n  }\n}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-22T05:12:17.759Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "39074324414a4143df94-d72bcc10b6647876e801",
+          "file": "rest/tests/getRequest.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "rest\\tests\\postRequest.spec.ts",
+      "file": "rest/tests/postRequest.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "create user",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 410,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{\n  name: \u001b[32m'Tom'\u001b[39m,\n  job: \u001b[32m'QE'\u001b[39m,\n  age: \u001b[32m'24'\u001b[39m,\n  id: \u001b[32m'129'\u001b[39m,\n  createdAt: \u001b[32m'2025-10-22T05:12:19.156Z'\u001b[39m\n}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-22T05:12:18.614Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c0311ac881c311dca776-daf1e08d1a6e14506e99",
+          "file": "rest/tests/postRequest.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "rest\\tests\\putRequest.spec.ts",
+      "file": "rest/tests/putRequest.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Update user",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 693,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{ name: \u001b[32m'Ben'\u001b[39m, job: \u001b[32m'HR'\u001b[39m, updatedAt: \u001b[32m'2025-10-22T05:12:19.589Z'\u001b[39m }\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-22T05:12:18.751Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d63c0bb23d3307d0679f-8924ef2da9cc202cf631",
+          "file": "rest/tests/putRequest.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-10-22T05:12:15.432Z",
+    "duration": 4271.197,
+    "expected": 6,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
