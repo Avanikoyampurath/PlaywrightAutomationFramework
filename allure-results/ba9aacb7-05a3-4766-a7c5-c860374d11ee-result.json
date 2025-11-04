@@ -1,0 +1,35 @@
+{
+  "uuid": "ba9aacb7-05a3-4766-a7c5-c860374d11ee",
+  "name": "empty password validation",
+  "historyId": "1a5115e88802a5736590a677ac8895d4:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "skipped",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "ui.tests.login.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " >  > ui\\tests\\login.spec.ts > Sauce Demo Login Functionality"
+    },
+    { "name": "host", "value": "5CG2224629" },
+    { "name": "thread", "value": "pid-3908-worker-0" },
+    { "name": "suite", "value": "ui\\tests\\login.spec.ts" },
+    { "name": "subSuite", "value": "Sauce Demo Login Functionality" }
+  ],
+  "links": [],
+  "start": 1761817714552,
+  "testCaseId": "1a5115e88802a5736590a677ac8895d4",
+  "fullName": "ui/tests/login.spec.ts:33:9",
+  "titlePath": [
+    "ui",
+    "tests",
+    "login.spec.ts",
+    "Sauce Demo Login Functionality"
+  ],
+  "stop": 1761817714552
+}

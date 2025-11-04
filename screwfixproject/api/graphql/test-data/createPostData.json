@@ -1,0 +1,10 @@
+{
+  "validPost": {
+    "title": "Hello GraphQL",
+    "body": "Testing mutation with Playwright"
+  },
+  "invalidPost": {
+    "": "",
+    "body": "Missing title test"
+  }
+}

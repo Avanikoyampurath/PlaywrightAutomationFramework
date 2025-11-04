@@ -1,0 +1,246 @@
+{
+  "uuid": "6114eaa6-56bd-4a1a-b052-f41e831fd83b",
+  "name": "should update cart badge correctly",
+  "historyId": "e25afdf3a951bb9750c40ecbca58e58d:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "broken",
+  "statusDetails": {
+    "message": "Test timeout of 30000ms exceeded while setting up \"authenticatedPage\".",
+    "trace": "Test timeout of 30000ms exceeded while setting up \"authenticatedPage\"."
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: page.fill: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-test=\"username\"]')\n",
+        "trace": "Error: page.fill: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-test=\"username\"]')\n\n    at LoginPage.enterUsername (C:\\workspace\\PlaywrightAPIFramework\\ui\\pages\\LoginPage.ts:22:25)\n    at LoginPage.login (C:\\workspace\\PlaywrightAPIFramework\\ui\\pages\\LoginPage.ts:34:20)\n    at Object.authenticatedPage (C:\\workspace\\PlaywrightAPIFramework\\ui\\fixtures\\auth.ts:22:25)"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1761816127342,
+              "uuid": "46c3aa48-b281-44c1-8ef2-b4760f5fd100",
+              "stop": 1761816127588
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1761816127337,
+          "uuid": "15eb7150-613a-40f0-8969-d45f5eeb08fd",
+          "stop": 1761816127588
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1761816127593,
+              "uuid": "70d851b7-38c6-40c6-b8bb-1e2e2f3861c7",
+              "stop": 1761816127606
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1761816127590,
+          "uuid": "e10c7713-e32a-46ef-969b-a801e6bfe8e7",
+          "stop": 1761816127608
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1761816127611,
+              "uuid": "230b694e-0856-47bd-a955-c216f2762bfa",
+              "stop": 1761816127885
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1761816127608,
+          "uuid": "1691ac5c-a08a-4248-b485-93090ca82960",
+          "stop": 1761816127886
+        },
+        {
+          "status": "failed",
+          "statusDetails": {
+            "message": "Test timeout of 30000ms exceeded while setting up \"authenticatedPage\".",
+            "trace": "Test timeout of 30000ms exceeded while setting up \"authenticatedPage\"."
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "failed",
+              "statusDetails": {
+                "message": "Test timeout of 30000ms exceeded while setting up \"authenticatedPage\".",
+                "trace": "Test timeout of 30000ms exceeded while setting up \"authenticatedPage\"."
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Fill \"standard_user\" locator('[data-test=\"username\"]')",
+              "start": 1761816127896,
+              "uuid": "bbc88a75-68ed-490a-9b25-5b1c65a7a55b",
+              "stop": 1761816157611
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"authenticatedPage\"",
+          "start": 1761816127886,
+          "uuid": "710c35d5-d3b7-4c83-8ac3-0600d6d3ece5",
+          "stop": 1761816158163
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1761816127324,
+      "uuid": "e88dd2d9-7910-445d-88d1-35e727a7414e",
+      "stop": 1761816157090
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "screenshot",
+          "source": "4e048b50-cf03-4448-9316-8f1bafbd45b5-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1761816157928,
+      "name": "screenshot",
+      "stop": 1761816157928
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"authenticatedPage\"",
+          "start": 1761816157641,
+          "uuid": "c0e1206e-3333-47a3-a9ce-f480ecc05f5b",
+          "stop": 1761816157642
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1761816157642,
+          "uuid": "304ecfd8-2c9d-4ded-8af2-a0bc3982275c",
+          "stop": 1761816157642
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1761816157651,
+              "uuid": "dcb5365f-ea45-491f-9c05-594e40d18759",
+              "stop": 1761816157663
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1761816157642,
+          "uuid": "5776ef2c-6e24-42e2-a07c-88800bec3464",
+          "stop": 1761816157664
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1761816157601,
+      "uuid": "eed2d1ea-3ef8-4472-ab2d-3a26cd2cb2cf",
+      "stop": 1761816157670
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "34392e9a-9f2b-4fc2-8e7a-53260d51e6e8-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "ui.tests.cart.add-single-product.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " >  > ui\\tests\\cart\\add-single-product.spec.ts > Add Single Product to Cart"
+    },
+    { "name": "host", "value": "5CG2224629" },
+    { "name": "thread", "value": "pid-27568-worker-1" },
+    { "name": "suite", "value": "ui\\tests\\cart\\add-single-product.spec.ts" },
+    { "name": "subSuite", "value": "Add Single Product to Cart" }
+  ],
+  "links": [],
+  "start": 1761816127319,
+  "testCaseId": "e25afdf3a951bb9750c40ecbca58e58d",
+  "fullName": "ui/tests/cart/add-single-product.spec.ts:63:9",
+  "titlePath": [
+    "ui",
+    "tests",
+    "cart",
+    "add-single-product.spec.ts",
+    "Add Single Product to Cart"
+  ],
+  "stop": 1761816157393
+}

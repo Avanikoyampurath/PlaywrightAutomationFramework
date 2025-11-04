@@ -1,14 +1,13 @@
 import { defineConfig } from "@playwright/test";
-import { readJsonFile } from "./utils/dataReader";
+import { readJsonFile } from "./utils/DataReader";
 
 const DEFAULT_ENV = "qa";
 const ENV = process.env.ENV || DEFAULT_ENV;
 process.env.ENV = ENV;
-const envConfig = readJsonFile(`./config/env.${ENV}.json`);
+const envConfig = readJsonFile(`./bnqproject/config/env.${ENV}.json`);
 
 export default defineConfig({
   use: {
-    baseURL: envConfig.restBaseURL,
     ignoreHTTPSErrors: true,
     screenshot: "only-on-failure",
     extraHTTPHeaders: {

@@ -1,0 +1,227 @@
+{
+  "uuid": "1b2d0470-b27d-4b68-99ee-6e592b64c61a",
+  "name": "empty credentials validation",
+  "historyId": "e536322491821d80cfa095fcfa5af60d:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "broken",
+  "statusDetails": {
+    "message": "Test timeout of 30000ms exceeded.",
+    "trace": "Test timeout of 30000ms exceeded."
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Launch browser",
+                  "start": 1761817075534,
+                  "uuid": "dee34969-7828-4476-ae47-a74c9a0aabd7",
+                  "stop": 1761817075754
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "Fixture \"browser\"",
+              "start": 1761817075526,
+              "uuid": "a1909079-5836-4fd3-899c-1c69b0cc7cbc",
+              "stop": 1761817075755
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Create context",
+                  "start": 1761817075760,
+                  "uuid": "28de3a00-b52a-4780-86e5-86809fa13ec5",
+                  "stop": 1761817075768
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "Fixture \"context\"",
+              "start": 1761817075757,
+              "uuid": "f14106c2-92f9-458a-b579-7fcecf4e2750",
+              "stop": 1761817075769
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Create page",
+                  "start": 1761817075772,
+                  "uuid": "227a9fee-d6b9-4e9c-adf3-ffb0be13ba6d",
+                  "stop": 1761817075987
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "Fixture \"page\"",
+              "start": 1761817075770,
+              "uuid": "f144681f-a4bc-4959-949f-590448b40019",
+              "stop": 1761817075987
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "beforeEach hook",
+          "start": 1761817075512,
+          "uuid": "22beadd1-1927-4edd-a665-4ee35b60ed2c",
+          "stop": 1761817075988
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1761817075512,
+      "uuid": "3c7cfe21-52ab-4763-b81d-2fd4d977fbfd",
+      "stop": 1761817075989
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: page.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-test=\"login-button\"]')\n",
+        "trace": "Error: page.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-test=\"login-button\"]')\n\n    at LoginPage.clickLoginButton (C:\\workspace\\PlaywrightAPIFramework\\ui\\pages\\LoginPage.ts:30:25)\n    at C:\\workspace\\PlaywrightAPIFramework\\ui\\tests\\login.spec.ts:29:25"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1761817075994,
+      "name": "Click locator('[data-test=\"login-button\"]')",
+      "uuid": "b201623e-ffb7-40ee-81b1-64734f121178",
+      "stop": 1761817105818
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "screenshot",
+          "source": "314811ec-b9a3-422e-a1e1-6074c4c60bc9-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1761817106078,
+      "name": "screenshot",
+      "stop": 1761817106078
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1761817105800,
+          "uuid": "8233855c-9324-46ee-9e30-1d82f403fe8f",
+          "stop": 1761817105801
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1761817105812,
+              "uuid": "45e95170-d527-4fd6-a06f-2be202dadb4e",
+              "stop": 1761817105820
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1761817105801,
+          "uuid": "f690e275-d3a8-4e6f-9d90-80f9a4823311",
+          "stop": 1761817105820
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1761817105757,
+      "uuid": "f4ca145a-90d5-40f2-8ed5-825ee879fdc2",
+      "stop": 1761817105825
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "eecb1259-dd02-4465-b783-36ac0fa8aff2-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "ui.tests.login.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " >  > ui\\tests\\login.spec.ts > Sauce Demo Login Functionality"
+    },
+    { "name": "host", "value": "5CG2224629" },
+    { "name": "thread", "value": "pid-5444-worker-0" },
+    { "name": "suite", "value": "ui\\tests\\login.spec.ts" },
+    { "name": "subSuite", "value": "Sauce Demo Login Functionality" }
+  ],
+  "links": [],
+  "start": 1761817075501,
+  "testCaseId": "e536322491821d80cfa095fcfa5af60d",
+  "fullName": "ui/tests/login.spec.ts:28:9",
+  "titlePath": [
+    "ui",
+    "tests",
+    "login.spec.ts",
+    "Sauce Demo Login Functionality"
+  ],
+  "stop": 1761817105565
+}

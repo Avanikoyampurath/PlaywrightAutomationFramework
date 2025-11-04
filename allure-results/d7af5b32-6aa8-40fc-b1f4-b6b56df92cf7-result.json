@@ -1,0 +1,141 @@
+{
+  "uuid": "d7af5b32-6aa8-40fc-b1f4-b6b56df92cf7",
+  "name": "Get users",
+  "historyId": "39cba47ab8c05b39197a9fb2d9ea0858:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: expect(received).toBeTruthy()\n\nReceived: false",
+    "trace": "Error: expect(received).toBeTruthy()\n\nReceived: false\n    at C:\\workspace\\PlaywrightAPIFramework\\screwfixproject\\api\\rest\\tests\\getRequest.spec.ts:5:25"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create request context",
+              "start": 1761894476319,
+              "uuid": "09664479-db6e-4c8f-b367-c00fb95a649e",
+              "stop": 1761894476330
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"restClient\"",
+          "start": 1761894476311,
+          "uuid": "06fbbcd8-12b1-4d5b-ba46-0f7f3a82b15f",
+          "stop": 1761894476332
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1761894476290,
+      "uuid": "a5087a4e-f0d8-4413-9883-eb2b26487a7a",
+      "stop": 1761894476332
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1761894476338,
+      "name": "GET \"/api/users?page=2\"",
+      "uuid": "a6bc0be2-0bcb-48d4-987b-803bea03f686",
+      "stop": 1761894477010
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: expect(received).toBeTruthy()\n\nReceived: false",
+        "trace": "Error: expect(received).toBeTruthy()\n\nReceived: false\n    at C:\\workspace\\PlaywrightAPIFramework\\screwfixproject\\api\\rest\\tests\\getRequest.spec.ts:5:25"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1761894477013,
+      "name": "Expect \"toBeTruthy\"",
+      "uuid": "ff10213f-0db5-45ee-a043-18efb6f13080",
+      "stop": 1761894477014
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"restClient\"",
+          "start": 1761894477016,
+          "uuid": "67706896-c963-4271-a6d4-03768ae19e41",
+          "stop": 1761894477019
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1761894477015,
+      "uuid": "cbe60aa1-802c-4ca9-855f-f12d27e791a3",
+      "stop": 1761894477026
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "78a29cd2-482c-4ed8-84a3-c1727f15117d-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    {
+      "name": "package",
+      "value": "screwfixproject.api.rest.tests.getRequest.spec.ts"
+    },
+    {
+      "name": "titlePath",
+      "value": " >  > screwfixproject\\api\\rest\\tests\\getRequest.spec.ts"
+    },
+    { "name": "host", "value": "5CG2224629" },
+    { "name": "thread", "value": "pid-27348-worker-3" },
+    {
+      "name": "suite",
+      "value": "screwfixproject\\api\\rest\\tests\\getRequest.spec.ts"
+    }
+  ],
+  "links": [],
+  "start": 1761894476295,
+  "testCaseId": "39cba47ab8c05b39197a9fb2d9ea0858",
+  "fullName": "screwfixproject/api/rest/tests/getRequest.spec.ts:3:5",
+  "titlePath": [
+    "screwfixproject",
+    "api",
+    "rest",
+    "tests",
+    "getRequest.spec.ts"
+  ],
+  "stop": 1761894477006
+}

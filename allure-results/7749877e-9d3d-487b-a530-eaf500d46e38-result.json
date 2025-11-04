@@ -1,0 +1,217 @@
+{
+  "uuid": "7749877e-9d3d-487b-a530-eaf500d46e38",
+  "name": "empty password validation",
+  "historyId": "3f6329fee6918e3bb889c465048f3ae4:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Create context",
+                  "start": 1761894493099,
+                  "uuid": "0330d85d-95a6-4ebc-be06-ec7dcb00947f",
+                  "stop": 1761894493104
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "Fixture \"context\"",
+              "start": 1761894493098,
+              "uuid": "355c5b41-f793-4961-908d-90fc51979d0c",
+              "stop": 1761894493104
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Create page",
+                  "start": 1761894493105,
+                  "uuid": "84e0085c-7cb8-4306-93d8-ca4b2c503446",
+                  "stop": 1761894493265
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "Fixture \"page\"",
+              "start": 1761894493104,
+              "uuid": "2e140c5e-f7c1-4eff-9bc6-0e9068cd59f7",
+              "stop": 1761894493265
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Navigate to \"/\"",
+              "start": 1761894493267,
+              "uuid": "edbdf62b-1714-4ad7-8b02-a8039c81597e",
+              "stop": 1761894494506
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "beforeEach hook",
+          "start": 1761894493091,
+          "uuid": "06f59852-9651-404d-90c0-e3f1ad7f3420",
+          "stop": 1761894494506
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1761894493091,
+      "uuid": "30b3e7ed-b474-42d5-b6a5-bc0d213a83ee",
+      "stop": 1761894494507
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1761894494508,
+      "name": "Fill \"standard_user\" locator('[data-test=\"username\"]')",
+      "uuid": "9b876d53-8acf-478e-a602-d5cf3e73e526",
+      "stop": 1761894494537
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1761894494538,
+      "name": "Click locator('[data-test=\"login-button\"]')",
+      "uuid": "2f843fba-7621-49e0-8d99-98b14c1e71da",
+      "stop": 1761894494578
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1761894494579,
+      "name": "Expect \"toHaveText\"",
+      "uuid": "77c353b4-d14a-42d9-bdb2-c5851279ac3b",
+      "stop": 1761894494584
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1761894494585,
+          "uuid": "3684fe15-8dd8-440a-8a64-f57d34bc7b7c",
+          "stop": 1761894494585
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1761894494627,
+              "uuid": "e12f9557-9b7a-4eaf-903b-84769c91f5bf",
+              "stop": 1761894494632
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1761894494586,
+          "uuid": "d22f8375-926f-4601-813b-49087730ab0f",
+          "stop": 1761894494632
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1761894494585,
+      "uuid": "d685c5d0-0f20-4714-b301-9e2d3e96164f",
+      "stop": 1761894494640
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "bfe4b2c9-3a31-4ea8-a65a-507a7b858fff-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "screwfixproject.ui.tests.login.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " >  > screwfixproject\\ui\\tests\\login.spec.ts > Sauce Demo Login Functionality"
+    },
+    { "name": "host", "value": "5CG2224629" },
+    { "name": "thread", "value": "pid-27348-worker-3" },
+    { "name": "suite", "value": "screwfixproject\\ui\\tests\\login.spec.ts" },
+    { "name": "subSuite", "value": "Sauce Demo Login Functionality" }
+  ],
+  "links": [],
+  "start": 1761894493090,
+  "testCaseId": "3f6329fee6918e3bb889c465048f3ae4",
+  "fullName": "screwfixproject/ui/tests/login.spec.ts:33:9",
+  "titlePath": [
+    "screwfixproject",
+    "ui",
+    "tests",
+    "login.spec.ts",
+    "Sauce Demo Login Functionality"
+  ],
+  "stop": 1761894494623
+}

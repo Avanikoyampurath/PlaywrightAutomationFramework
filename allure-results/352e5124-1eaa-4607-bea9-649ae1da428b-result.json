@@ -1,0 +1,147 @@
+{
+  "uuid": "352e5124-1eaa-4607-bea9-649ae1da428b",
+  "name": "create user",
+  "historyId": "b8103b814b553f9903c7146c511a55d1:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create request context",
+              "start": 1761820487747,
+              "uuid": "8bc37eb9-ab00-483d-9097-964b95e3fe0f",
+              "stop": 1761820487752
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"restClient\"",
+          "start": 1761820487747,
+          "uuid": "b5bdbda8-82da-40e3-8df0-21eff48933c1",
+          "stop": 1761820487754
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1761820487742,
+      "uuid": "dc3bc363-bc32-4a6d-8a4b-479a920d59a2",
+      "stop": 1761820487754
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1761820487756,
+      "name": "POST \"/api/users\"",
+      "uuid": "4cdc5c5e-4783-4e4a-b484-312ae7636d27",
+      "stop": 1761820488132
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1761820488132,
+      "name": "Expect \"toBe\"",
+      "uuid": "81d7c36a-465c-4b8d-8636-507f92570fbe",
+      "stop": 1761820488133
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1761820488133,
+      "name": "Expect \"toBe\"",
+      "uuid": "328fb63d-95b7-40e2-9233-85e5147bae08",
+      "stop": 1761820488134
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1761820488134,
+      "name": "Expect \"toBe\"",
+      "uuid": "fbcd0181-f2e0-4b13-91d7-f8e2d724cec6",
+      "stop": 1761820488133
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"restClient\"",
+          "start": 1761820488135,
+          "uuid": "be809aa2-e304-4c11-8f38-6ed7c4f9814e",
+          "stop": 1761820488136
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1761820488134,
+      "uuid": "ad6d140f-07e8-412d-a3d8-9a6cfa882f3d",
+      "stop": 1761820488140
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "fcbcd689-eb05-47a3-92b1-410d86a32ff8-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "api.rest.tests.postRequest.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " >  > api\\rest\\tests\\postRequest.spec.ts"
+    },
+    { "name": "host", "value": "5CG2224629" },
+    { "name": "thread", "value": "pid-27188-worker-3" },
+    { "name": "suite", "value": "api\\rest\\tests\\postRequest.spec.ts" }
+  ],
+  "links": [],
+  "start": 1761820487741,
+  "testCaseId": "b8103b814b553f9903c7146c511a55d1",
+  "fullName": "api/rest/tests/postRequest.spec.ts:3:5",
+  "titlePath": ["api", "rest", "tests", "postRequest.spec.ts"],
+  "stop": 1761820488130
+}

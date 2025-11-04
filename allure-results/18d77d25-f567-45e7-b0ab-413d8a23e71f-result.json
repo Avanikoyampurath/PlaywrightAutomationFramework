@@ -1,1 +1,144 @@
-{"uuid":"18d77d25-f567-45e7-b0ab-413d8a23e71f","name":"create user","historyId":"dc4feda40a6d3ebee88a04d4b6b78dd6:d41d8cd98f00b204e9800998ecf8427e","status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create request context","start":1761732125313,"uuid":"a425603d-64e4-4de5-8122-c53cff40bf79","stop":1761732125317}],"attachments":[],"parameters":[],"name":"Fixture \"restClient\"","start":1761732125313,"uuid":"8a5c4a0a-bef9-430b-a625-7eb4f687ddb5","stop":1761732125318}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1761732125307,"uuid":"fd7ba1bf-06ab-45ea-97d5-f34e4dc559af","stop":1761732125318},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1761732125321,"name":"POST \"/api/users\"","uuid":"badcc0e2-ccf7-46f3-873d-cdd73108ebd6","stop":1761732125850},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1761732125852,"name":"Expect \"toBe\"","uuid":"61410d1b-e23c-40ba-bb4a-84ca715f8539","stop":1761732125852},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1761732125854,"name":"Expect \"toBe\"","uuid":"bda63a4c-b6aa-4f5f-b0db-ef4bd4a02d54","stop":1761732125854},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1761732125855,"name":"Expect \"toBe\"","uuid":"c250eb45-1aab-44d9-b85e-d99cc103caaa","stop":1761732125855},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"restClient\"","start":1761732125855,"uuid":"19a2d96a-6e8e-4258-aa9c-59e8d75e757d","stop":1761732125857}],"attachments":[],"parameters":[],"name":"After Hooks","start":1761732125855,"uuid":"3d91f696-63d0-4c17-badd-db1ed00f83e8","stop":1761732125861}],"attachments":[{"name":"stdout","source":"63c951f9-8a2a-4810-8c06-de2795c53a78-attachment.txt","type":"text/plain"}],"parameters":[],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"rest.tests.postRequest.spec.ts"},{"name":"titlePath","value":" >  > rest\\tests\\postRequest.spec.ts"},{"name":"host","value":"5CG2224629"},{"name":"thread","value":"pid-16468-worker-3"},{"name":"suite","value":"rest\\tests\\postRequest.spec.ts"}],"links":[],"start":1761732125309,"testCaseId":"dc4feda40a6d3ebee88a04d4b6b78dd6","fullName":"rest/tests/postRequest.spec.ts:3:5","titlePath":["rest","tests","postRequest.spec.ts"],"stop":1761732125853}
+{
+  "uuid": "18d77d25-f567-45e7-b0ab-413d8a23e71f",
+  "name": "create user",
+  "historyId": "dc4feda40a6d3ebee88a04d4b6b78dd6:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create request context",
+              "start": 1761732125313,
+              "uuid": "a425603d-64e4-4de5-8122-c53cff40bf79",
+              "stop": 1761732125317
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"restClient\"",
+          "start": 1761732125313,
+          "uuid": "8a5c4a0a-bef9-430b-a625-7eb4f687ddb5",
+          "stop": 1761732125318
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1761732125307,
+      "uuid": "fd7ba1bf-06ab-45ea-97d5-f34e4dc559af",
+      "stop": 1761732125318
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1761732125321,
+      "name": "POST \"/api/users\"",
+      "uuid": "badcc0e2-ccf7-46f3-873d-cdd73108ebd6",
+      "stop": 1761732125850
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1761732125852,
+      "name": "Expect \"toBe\"",
+      "uuid": "61410d1b-e23c-40ba-bb4a-84ca715f8539",
+      "stop": 1761732125852
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1761732125854,
+      "name": "Expect \"toBe\"",
+      "uuid": "bda63a4c-b6aa-4f5f-b0db-ef4bd4a02d54",
+      "stop": 1761732125854
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1761732125855,
+      "name": "Expect \"toBe\"",
+      "uuid": "c250eb45-1aab-44d9-b85e-d99cc103caaa",
+      "stop": 1761732125855
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"restClient\"",
+          "start": 1761732125855,
+          "uuid": "19a2d96a-6e8e-4258-aa9c-59e8d75e757d",
+          "stop": 1761732125857
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1761732125855,
+      "uuid": "3d91f696-63d0-4c17-badd-db1ed00f83e8",
+      "stop": 1761732125861
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "63c951f9-8a2a-4810-8c06-de2795c53a78-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "rest.tests.postRequest.spec.ts" },
+    { "name": "titlePath", "value": " >  > rest\\tests\\postRequest.spec.ts" },
+    { "name": "host", "value": "5CG2224629" },
+    { "name": "thread", "value": "pid-16468-worker-3" },
+    { "name": "suite", "value": "rest\\tests\\postRequest.spec.ts" }
+  ],
+  "links": [],
+  "start": 1761732125309,
+  "testCaseId": "dc4feda40a6d3ebee88a04d4b6b78dd6",
+  "fullName": "rest/tests/postRequest.spec.ts:3:5",
+  "titlePath": ["rest", "tests", "postRequest.spec.ts"],
+  "stop": 1761732125853
+}

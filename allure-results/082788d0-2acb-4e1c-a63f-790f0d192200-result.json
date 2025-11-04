@@ -1,0 +1,141 @@
+{
+  "uuid": "082788d0-2acb-4e1c-a63f-790f0d192200",
+  "name": "DELETE user",
+  "historyId": "5c7e78aadc7e31bf212900bba7035c03:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 204\nReceived: 401",
+    "trace": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 204\nReceived: 401\n    at C:\\workspace\\PlaywrightAPIFramework\\screwfixproject\\api\\rest\\tests\\deleteRequest.spec.ts:5:29"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create request context",
+              "start": 1761894476340,
+              "uuid": "e180163e-e65c-4eda-ab19-c0af8a92e95c",
+              "stop": 1761894476346
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"restClient\"",
+          "start": 1761894476329,
+          "uuid": "36beb802-8525-4452-8116-6afdd35e26f2",
+          "stop": 1761894476349
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1761894476307,
+      "uuid": "b3512c72-0705-43c4-ad2c-46ab6b3048eb",
+      "stop": 1761894476349
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1761894476356,
+      "name": "DELETE \"/api/users/2\"",
+      "uuid": "2d6ffc2c-d559-43cb-9783-38124e9f0c11",
+      "stop": 1761894476902
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 204\nReceived: 401",
+        "trace": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 204\nReceived: 401\n    at C:\\workspace\\PlaywrightAPIFramework\\screwfixproject\\api\\rest\\tests\\deleteRequest.spec.ts:5:29"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1761894476906,
+      "name": "Expect \"toBe\"",
+      "uuid": "23b56e88-99d4-4fd1-b0f3-2b53a602cb38",
+      "stop": 1761894476908
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"restClient\"",
+          "start": 1761894476910,
+          "uuid": "843e7db6-6ea6-4d28-9c28-6933cbe6b871",
+          "stop": 1761894476912
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1761894476909,
+      "uuid": "2ec9c6ca-8496-4e7f-a2f3-109dae863fd8",
+      "stop": 1761894476917
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "84d9e78f-36ce-4ae2-ada1-2e45fd38785f-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    {
+      "name": "package",
+      "value": "screwfixproject.api.rest.tests.deleteRequest.spec.ts"
+    },
+    {
+      "name": "titlePath",
+      "value": " >  > screwfixproject\\api\\rest\\tests\\deleteRequest.spec.ts"
+    },
+    { "name": "host", "value": "5CG2224629" },
+    { "name": "thread", "value": "pid-27348-worker-2" },
+    {
+      "name": "suite",
+      "value": "screwfixproject\\api\\rest\\tests\\deleteRequest.spec.ts"
+    }
+  ],
+  "links": [],
+  "start": 1761894476302,
+  "testCaseId": "5c7e78aadc7e31bf212900bba7035c03",
+  "fullName": "screwfixproject/api/rest/tests/deleteRequest.spec.ts:3:5",
+  "titlePath": [
+    "screwfixproject",
+    "api",
+    "rest",
+    "tests",
+    "deleteRequest.spec.ts"
+  ],
+  "stop": 1761894476888
+}

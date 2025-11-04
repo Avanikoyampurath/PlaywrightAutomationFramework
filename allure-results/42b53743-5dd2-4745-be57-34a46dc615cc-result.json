@@ -1,0 +1,35 @@
+{
+  "uuid": "42b53743-5dd2-4745-be57-34a46dc615cc",
+  "name": "locked out user cannot login",
+  "historyId": "bcdc6a2755296cfdf70ef59b50da7f18:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "skipped",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "ui.tests.login.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " >  > ui\\tests\\login.spec.ts > Sauce Demo Login Functionality"
+    },
+    { "name": "host", "value": "5CG2224629" },
+    { "name": "thread", "value": "pid-26996-worker-0" },
+    { "name": "suite", "value": "ui\\tests\\login.spec.ts" },
+    { "name": "subSuite", "value": "Sauce Demo Login Functionality" }
+  ],
+  "links": [],
+  "start": 1761818270188,
+  "testCaseId": "bcdc6a2755296cfdf70ef59b50da7f18",
+  "fullName": "ui/tests/login.spec.ts:18:10",
+  "titlePath": [
+    "ui",
+    "tests",
+    "login.spec.ts",
+    "Sauce Demo Login Functionality"
+  ],
+  "stop": 1761818270189
+}

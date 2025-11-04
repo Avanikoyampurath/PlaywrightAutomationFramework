@@ -1,0 +1,211 @@
+{
+  "uuid": "33109a65-43a6-4342-88aa-307ecd66709f",
+  "name": "problem user can login",
+  "historyId": "101be5a0682728d47f46b1e3d12673e1:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: page.fill: Target page, context or browser has been closed\nCall log:\n  - waiting for locator('[data-test=\"username\"]')\n",
+    "trace": "Error: page.fill: Target page, context or browser has been closed\nCall log:\n  - waiting for locator('[data-test=\"username\"]')\n\n    at LoginPage.enterUsername (C:\\workspace\\PlaywrightAPIFramework\\ui\\pages\\LoginPage.ts:23:25)\n    at LoginPage.login (C:\\workspace\\PlaywrightAPIFramework\\ui\\pages\\LoginPage.ts:35:20)\n    at C:\\workspace\\PlaywrightAPIFramework\\ui\\tests\\login.spec.ts:40:25"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Launch browser",
+                  "start": 1761817775139,
+                  "uuid": "2eff5379-9828-4c6b-85cc-94bad7c25475",
+                  "stop": 1761817775665
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "Fixture \"browser\"",
+              "start": 1761817775133,
+              "uuid": "1c1e7955-dbb6-4bcf-9753-ab56e38b3647",
+              "stop": 1761817775665
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Create context",
+                  "start": 1761817775671,
+                  "uuid": "9921c785-471b-4fbe-ac8a-f28512503bf1",
+                  "stop": 1761817775685
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "Fixture \"context\"",
+              "start": 1761817775667,
+              "uuid": "2c6758e8-b23e-4b51-98dd-28bcbcde0b8e",
+              "stop": 1761817775686
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Create page",
+                  "start": 1761817775690,
+                  "uuid": "c4231072-a8e0-4b52-a04f-cf21bdeb8c99",
+                  "stop": 1761817776062
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "Fixture \"page\"",
+              "start": 1761817775687,
+              "uuid": "5a1556c3-aed5-4dbc-ba6a-eadaf0c1cca7",
+              "stop": 1761817776062
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "beforeEach hook",
+          "start": 1761817775120,
+          "uuid": "7ef5ad42-8524-4e55-ad3b-cb0621821cff",
+          "stop": 1761817776064
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1761817775120,
+      "uuid": "75c8e712-5d23-496f-ac65-ec4ce8c58aee",
+      "stop": 1761817776064
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: page.fill: Target page, context or browser has been closed\nCall log:\n  - waiting for locator('[data-test=\"username\"]')\n",
+        "trace": "Error: page.fill: Target page, context or browser has been closed\nCall log:\n  - waiting for locator('[data-test=\"username\"]')\n\n    at LoginPage.enterUsername (C:\\workspace\\PlaywrightAPIFramework\\ui\\pages\\LoginPage.ts:23:25)\n    at LoginPage.login (C:\\workspace\\PlaywrightAPIFramework\\ui\\pages\\LoginPage.ts:35:20)\n    at C:\\workspace\\PlaywrightAPIFramework\\ui\\tests\\login.spec.ts:40:25"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1761817776074,
+      "name": "Fill \"problem_user\" locator('[data-test=\"username\"]')",
+      "uuid": "a30a16ad-05e8-490a-a217-f7640f4b6369",
+      "stop": 1761817777260
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1761817777263,
+          "uuid": "eff5223c-3d1f-4152-9a71-a832777dab81",
+          "stop": 1761817777263
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1761817777270,
+              "uuid": "6dbd035f-5f74-47d0-9b06-fe7dfc161222",
+              "stop": 1761817777284
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1761817777263,
+          "uuid": "dfb171af-8f7f-475f-9701-1218ae0f1f6a",
+          "stop": 1761817777284
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1761817777261,
+      "uuid": "90b3e216-03ef-426d-bee8-911a0b769c40",
+      "stop": 1761817777294
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "2d63c436-4462-45c6-972d-8be1b0db81ad-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "ui.tests.login.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " >  > ui\\tests\\login.spec.ts > Sauce Demo Login Functionality"
+    },
+    { "name": "host", "value": "5CG2224629" },
+    { "name": "thread", "value": "pid-1452-worker-0" },
+    { "name": "suite", "value": "ui\\tests\\login.spec.ts" },
+    { "name": "subSuite", "value": "Sauce Demo Login Functionality" }
+  ],
+  "links": [],
+  "start": 1761817775124,
+  "testCaseId": "101be5a0682728d47f46b1e3d12673e1",
+  "fullName": "ui/tests/login.spec.ts:39:9",
+  "titlePath": [
+    "ui",
+    "tests",
+    "login.spec.ts",
+    "Sauce Demo Login Functionality"
+  ],
+  "stop": 1761817776742
+}

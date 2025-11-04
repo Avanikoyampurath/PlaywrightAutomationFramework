@@ -1,0 +1,173 @@
+{
+  "uuid": "53eaed6e-4136-425e-bfb3-b718236bc187",
+  "name": "create new post",
+  "historyId": "333cc4759fb6c8d843fa863df71e9d12:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create request context",
+              "start": 1761895071582,
+              "uuid": "07a59574-4fe8-457e-8909-bf5c0c846e66",
+              "stop": 1761895071590
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"gqlClient\"",
+          "start": 1761895071555,
+          "uuid": "9a1c5504-8fbe-40d2-8cd4-8bc7b2cb9c50",
+          "stop": 1761895071594
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1761895071469,
+      "uuid": "52f28028-1568-4007-915b-ad4641d56a12",
+      "stop": 1761895071594
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1761895071601,
+      "name": "POST \"/api\"",
+      "uuid": "fb8022e8-f1ed-4524-8c97-827befa90fbc",
+      "stop": 1761895072916
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1761895072922,
+      "name": "Expect \"toBeDefined\"",
+      "uuid": "5e3600d9-c3ca-45b9-abd7-20458980bf0b",
+      "stop": 1761895072923
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1761895072924,
+      "name": "Expect \"toBe\"",
+      "uuid": "71ed206e-83eb-4a42-bd12-a4de2d0fbf0b",
+      "stop": 1761895072925
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "GraphQL Request Payload",
+          "source": "3e8ab5fd-30e6-4433-816f-401e02a15d37-attachment.json",
+          "type": "application/json"
+        }
+      ],
+      "parameters": [],
+      "start": 1761895072942,
+      "name": "GraphQL Request Payload",
+      "stop": 1761895072942
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "GraphQL Response",
+          "source": "f8f3d977-6aaa-4b73-a14c-4f6ce9a75c35-attachment.json",
+          "type": "application/json"
+        }
+      ],
+      "parameters": [],
+      "start": 1761895072944,
+      "name": "GraphQL Response",
+      "stop": 1761895072944
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"gqlClient\"",
+          "start": 1761895072926,
+          "uuid": "1b386450-ffb2-42c3-a73a-f2c0d67f1722",
+          "stop": 1761895072930
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1761895072925,
+      "uuid": "a4a888b3-a31f-4c0f-8b73-06d4c67bf01f",
+      "stop": 1761895072942
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "77a060d0-0663-4efc-a4b0-ac05893d001c-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    {
+      "name": "package",
+      "value": "screwfixproject.api.graphql.tests.post.spec.ts"
+    },
+    {
+      "name": "titlePath",
+      "value": " >  > screwfixproject\\api\\graphql\\tests\\post.spec.ts"
+    },
+    { "name": "host", "value": "5CG2224629" },
+    { "name": "thread", "value": "pid-13972-worker-0" },
+    {
+      "name": "suite",
+      "value": "screwfixproject\\api\\graphql\\tests\\post.spec.ts"
+    }
+  ],
+  "links": [],
+  "start": 1761895071470,
+  "testCaseId": "333cc4759fb6c8d843fa863df71e9d12",
+  "fullName": "screwfixproject/api/graphql/tests/post.spec.ts:4:5",
+  "titlePath": ["screwfixproject", "api", "graphql", "tests", "post.spec.ts"],
+  "stop": 1761895072853
+}

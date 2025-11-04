@@ -1,0 +1,123 @@
+{
+  "uuid": "0a9361b5-94df-4b0c-9ce8-35e82df993a2",
+  "name": "DELETE user",
+  "historyId": "51df44e4bbdf057044b86fd5946c8b60:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create request context",
+              "start": 1761811428173,
+              "uuid": "e88b502a-8b2e-435e-a36a-0d2c8311318d",
+              "stop": 1761811428180
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"restClient\"",
+          "start": 1761811428162,
+          "uuid": "dcf02f7d-f2c3-4389-a331-ebd729d14423",
+          "stop": 1761811428183
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1761811428110,
+      "uuid": "54fd7aac-17d8-4121-8240-0c4dfe4a57e6",
+      "stop": 1761811428183
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1761811428191,
+      "name": "DELETE \"/api/users/2\"",
+      "uuid": "3c8a8c77-a827-4ad5-9308-de0865434f06",
+      "stop": 1761811429015
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1761811429017,
+      "name": "Expect \"toBe\"",
+      "uuid": "d85851a0-36af-4013-bb83-47e43522dfc0",
+      "stop": 1761811429018
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"restClient\"",
+          "start": 1761811429020,
+          "uuid": "683370b3-3df9-4793-a000-1ef9c28a765c",
+          "stop": 1761811429022
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1761811429018,
+      "uuid": "36338654-60d9-4763-9617-c681e1e2930f",
+      "stop": 1761811429027
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "27a03c1a-4a32-4b75-b32b-9ccc638aaa37-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "rest.tests.deleteRequest.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " >  > rest\\tests\\deleteRequest.spec.ts"
+    },
+    { "name": "host", "value": "5CG2224629" },
+    { "name": "thread", "value": "pid-10892-worker-2" },
+    { "name": "suite", "value": "rest\\tests\\deleteRequest.spec.ts" }
+  ],
+  "links": [],
+  "start": 1761811428112,
+  "testCaseId": "51df44e4bbdf057044b86fd5946c8b60",
+  "fullName": "rest/tests/deleteRequest.spec.ts:3:5",
+  "titlePath": ["rest", "tests", "deleteRequest.spec.ts"],
+  "stop": 1761811428975
+}

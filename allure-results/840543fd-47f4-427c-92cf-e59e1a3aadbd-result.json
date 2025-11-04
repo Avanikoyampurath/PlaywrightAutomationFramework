@@ -1,0 +1,35 @@
+{
+  "uuid": "840543fd-47f4-427c-92cf-e59e1a3aadbd",
+  "name": "problem user can login",
+  "historyId": "101be5a0682728d47f46b1e3d12673e1:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "skipped",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "ui.tests.login.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " >  > ui\\tests\\login.spec.ts > Sauce Demo Login Functionality"
+    },
+    { "name": "host", "value": "5CG2224629" },
+    { "name": "thread", "value": "pid-7772-worker-0" },
+    { "name": "suite", "value": "ui\\tests\\login.spec.ts" },
+    { "name": "subSuite", "value": "Sauce Demo Login Functionality" }
+  ],
+  "links": [],
+  "start": 1761818380332,
+  "testCaseId": "101be5a0682728d47f46b1e3d12673e1",
+  "fullName": "ui/tests/login.spec.ts:39:10",
+  "titlePath": [
+    "ui",
+    "tests",
+    "login.spec.ts",
+    "Sauce Demo Login Functionality"
+  ],
+  "stop": 1761818380333
+}

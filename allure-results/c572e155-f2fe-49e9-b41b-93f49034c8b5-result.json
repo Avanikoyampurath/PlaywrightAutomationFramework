@@ -1,0 +1,159 @@
+{
+  "uuid": "c572e155-f2fe-49e9-b41b-93f49034c8b5",
+  "name": "create user",
+  "historyId": "ad2dde116b2191f02cbb5a0460be1cbb:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create request context",
+              "start": 1761886724471,
+              "uuid": "9410272b-9343-472f-b36f-c5d53fcb1df6",
+              "stop": 1761886724476
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"restClient\"",
+          "start": 1761886724470,
+          "uuid": "92621e70-82b2-43cb-90fd-a6a99cecc1df",
+          "stop": 1761886724477
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1761886724465,
+      "uuid": "811bab14-68f1-480f-a549-14fea4e270b3",
+      "stop": 1761886724478
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1761886724480,
+      "name": "POST \"/api/users\"",
+      "uuid": "e4075765-5449-40f7-9c06-1e742d052779",
+      "stop": 1761886724829
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1761886724830,
+      "name": "Expect \"toBe\"",
+      "uuid": "51ffa8e4-f078-4231-a64e-6cd243fe1f76",
+      "stop": 1761886724822
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1761886724831,
+      "name": "Expect \"toBe\"",
+      "uuid": "93336cbc-2249-4645-b06c-883045aaf44c",
+      "stop": 1761886724823
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1761886724831,
+      "name": "Expect \"toBe\"",
+      "uuid": "9d5dbfc1-cead-4d3e-aeb9-75cae34af2d0",
+      "stop": 1761886724824
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"restClient\"",
+          "start": 1761886724832,
+          "uuid": "32b8ca7b-65ee-41f7-9e5a-5ef251042c27",
+          "stop": 1761886724833
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1761886724831,
+      "uuid": "f738fa4e-0cdc-4af1-802e-f01f303e25b0",
+      "stop": 1761886724837
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "7dc1fa1e-1e15-48f9-aca7-7f30af84d373-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    {
+      "name": "package",
+      "value": "screwfixproject.api.rest.tests.postRequest.spec.ts"
+    },
+    {
+      "name": "titlePath",
+      "value": " >  > screwfixproject\\api\\rest\\tests\\postRequest.spec.ts"
+    },
+    { "name": "host", "value": "5CG2224629" },
+    { "name": "thread", "value": "pid-16748-worker-3" },
+    {
+      "name": "suite",
+      "value": "screwfixproject\\api\\rest\\tests\\postRequest.spec.ts"
+    }
+  ],
+  "links": [],
+  "start": 1761886724458,
+  "testCaseId": "ad2dde116b2191f02cbb5a0460be1cbb",
+  "fullName": "screwfixproject/api/rest/tests/postRequest.spec.ts:3:5",
+  "titlePath": [
+    "screwfixproject",
+    "api",
+    "rest",
+    "tests",
+    "postRequest.spec.ts"
+  ],
+  "stop": 1761886724821
+}

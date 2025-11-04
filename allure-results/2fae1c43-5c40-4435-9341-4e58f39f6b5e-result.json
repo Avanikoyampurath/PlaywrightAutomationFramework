@@ -1,0 +1,153 @@
+{
+  "uuid": "2fae1c43-5c40-4435-9341-4e58f39f6b5e",
+  "name": "Update user",
+  "historyId": "3dc784be2b2ae547168020b7829e1a67:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create request context",
+              "start": 1762231749727,
+              "uuid": "03c7f629-8c98-4d12-b32d-451560f96b25",
+              "stop": 1762231749732
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"restClient\"",
+          "start": 1762231749727,
+          "uuid": "4876851b-0264-4225-a91e-6dc847cc7c2c",
+          "stop": 1762231749734
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1762231749716,
+      "uuid": "00bf2216-564c-406a-912f-debcaed53a29",
+      "stop": 1762231749734
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1762231749737,
+      "name": "PUT \"/api/users/2\"",
+      "uuid": "c551f266-e32f-41bd-a7ef-496d780f6937",
+      "stop": 1762231750238
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1762231750239,
+      "name": "Expect \"toBe\"",
+      "uuid": "a9bdd806-86d0-4bac-b202-83b44e3d53e2",
+      "stop": 1762231750240
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1762231750242,
+      "name": "Expect \"toBe\"",
+      "uuid": "92ba66d7-51cf-472c-b2b7-7174c647ce3e",
+      "stop": 1762231750243
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1762231750243,
+      "name": "Expect \"toBe\"",
+      "uuid": "aee5cfb1-c4ae-44fb-966d-572fb5ebda98",
+      "stop": 1762231750244
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"restClient\"",
+          "start": 1762231750244,
+          "uuid": "0549ad94-e6f9-4f16-be19-83d053ef0509",
+          "stop": 1762231750246
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1762231750244,
+      "uuid": "f59ff1f4-06ee-4e20-8fc0-46fffd02ebdc",
+      "stop": 1762231750254
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "77036ee6-eaba-44de-92c2-b59b749f36d0-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    {
+      "name": "package",
+      "value": "bnqproject.api.rest.tests.putRequest.spec.ts"
+    },
+    {
+      "name": "titlePath",
+      "value": " >  > bnqproject\\api\\rest\\tests\\putRequest.spec.ts"
+    },
+    { "name": "host", "value": "5CG2224629" },
+    { "name": "thread", "value": "pid-28388-worker-2" },
+    {
+      "name": "suite",
+      "value": "bnqproject\\api\\rest\\tests\\putRequest.spec.ts"
+    }
+  ],
+  "links": [],
+  "start": 1762231749719,
+  "testCaseId": "3dc784be2b2ae547168020b7829e1a67",
+  "fullName": "bnqproject/api/rest/tests/putRequest.spec.ts:3:5",
+  "titlePath": ["bnqproject", "api", "rest", "tests", "putRequest.spec.ts"],
+  "stop": 1762231750240
+}
