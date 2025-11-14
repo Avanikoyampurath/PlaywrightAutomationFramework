@@ -68,3 +68,7 @@ coverage/
 # ----------------------------
 .DS_Store
 Thumbs.db
+
+
+allure-results/
+allure-report/
