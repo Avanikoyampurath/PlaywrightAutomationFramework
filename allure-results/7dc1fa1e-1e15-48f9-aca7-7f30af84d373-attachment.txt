@@ -1,8 +1,0 @@
-running in... qa environment
-{
-  name: 'Tom',
-  job: 'QE',
-  age: '24',
-  id: '615',
-  createdAt: '2025-10-31T04:58:44.712Z'
-}
