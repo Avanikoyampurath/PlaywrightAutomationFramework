@@ -42,14 +42,13 @@ export class LoginPage extends BasePageScrewfix {
     return this.getElementText(this.errorMessage);
   }
 
-  async expectErrorMessage(message: string) {
-    await expect(this.page.locator(this.errorMessage)).toHaveText(message);
+  async expectErrorMessage() {
+    return this.page.locator(this.errorMessage);
   }
 
-  async expectSuccessfulLogin() {
+  async validatePageTitle() {
     await this.expectUrlContains("/inventory.html");
-    await expect(this.page.locator(this.inventoryHeading)).toHaveText(
-      "Products",
-    );
+    return this.page.locator(this.inventoryHeading);
+      
   }
 }

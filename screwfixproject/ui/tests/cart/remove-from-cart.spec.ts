@@ -1,7 +1,7 @@
 // spec: test-plans/cart-test-plan.md
 // seed: tests/seed.spec.ts
 
-import { test, expect } from "../../fixtures/auth";
+import { test, expect } from "../../fixtures/BaseTest";
 
 test.describe("Removing Products", () => {
   test("Remove from Cart Page", async ({ page }) => {

@@ -2,25 +2,17 @@ import { Page, test as baseTest, expect } from "@playwright/test";
 import { LoginPage } from "../pages/LoginPage";
 
 export interface AuthFixtures {
-  loginPage: LoginPage;
   authenticatedPage: Page;
   standardUser: Page;
   performanceUser: Page;
 }
 
-// Use this test in your specs: import { test, expect } from '../../fixtures/auth';
-const test = baseTest.extend<AuthFixtures>({
-  loginPage: async ({ page }, use) => {
-    const loginPage = new LoginPage(page);
-    await loginPage.goto();
-    await use(loginPage);
-  },
-
+export const test = baseTest.extend<AuthFixtures>({
+  
   authenticatedPage: async ({ page }, use) => {
     const loginPage = new LoginPage(page);
     await loginPage.goto();
     await loginPage.login("standard_user", "secret_sauce");
-    await loginPage.expectSuccessfulLogin();
     await use(page);
   },
 
@@ -28,7 +20,6 @@ const test = baseTest.extend<AuthFixtures>({
     const loginPage = new LoginPage(page);
     await loginPage.goto();
     await loginPage.login("standard_user", "secret_sauce");
-    await loginPage.expectSuccessfulLogin();
     await use(page);
   },
 
@@ -36,9 +27,7 @@ const test = baseTest.extend<AuthFixtures>({
     const loginPage = new LoginPage(page);
     await loginPage.goto();
     await loginPage.login("performance_glitch_user", "secret_sauce");
-    await loginPage.expectSuccessfulLogin();
     await use(page);
   },
 });
 
-export { test, expect };

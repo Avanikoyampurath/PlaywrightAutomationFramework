@@ -1,35 +1,32 @@
-import { test, expect } from "../../fixtures/auth";
+import { test, expect } from "../../fixtures/BaseTest";
 import { InventoryPage } from "../../pages/InventoryPage";
 
 test.describe("Add Single Product to Cart", () => {
   test("should add single product to cart successfully", async ({
-    authenticatedPage,
+    authenticatedPage,inventoryPage
   }) => {
-    // Initialize page object
-    const inventoryPage = new InventoryPage(authenticatedPage);
-
-    // Constants
+    
     const productName = "sauce-labs-backpack";
 
     // Verify initial state
-    await expect(await inventoryPage.getCartBadgeVisibility()).toBe(false);
+    expect(await inventoryPage.getCartBadgeVisibility()).toBe(false);
 
     // Get initial button state
     const initialState = await inventoryPage.getButtonState(productName);
-    await expect(initialState.isAddVisible).toBe(true);
-    await expect(initialState.isRemoveVisible).toBe(false);
+    expect(initialState.isAddVisible).toBe(true);
+    expect(initialState.isRemoveVisible).toBe(false);
 
     // Add product to cart
     await inventoryPage.addToCart(productName);
 
     // Verify cart badge
-    await expect(await inventoryPage.getCartBadgeVisibility()).toBe(true);
-    await expect(await inventoryPage.getCartCount()).toBe("1");
+    expect(await inventoryPage.getCartBadgeVisibility()).toBe(true);
+    expect(await inventoryPage.getCartCount()).toBe("1");
 
     // Verify button state changed
     const finalState = await inventoryPage.getButtonState(productName);
-    await expect(finalState.isAddVisible).toBe(false);
-    await expect(finalState.isRemoveVisible).toBe(true);
+    expect(finalState.isAddVisible).toBe(false);
+    expect(finalState.isRemoveVisible).toBe(true);
 
     // Verify cart contents
     await inventoryPage.openCart();
@@ -51,16 +48,16 @@ test.describe("Add Single Product to Cart", () => {
 
     // Verify button state changed
     let buttonState = await inventoryPage.getButtonState(productName);
-    await expect(buttonState.isRemoveVisible).toBe(true);
-    await expect(buttonState.isAddVisible).toBe(false);
+    expect(buttonState.isRemoveVisible).toBe(true);
+    expect(buttonState.isAddVisible).toBe(false);
 
     // Remove product
     await inventoryPage.removeFromCart(productName);
 
     // Verify button state changed back
     buttonState = await inventoryPage.getButtonState(productName);
-    await expect(buttonState.isAddVisible).toBe(true);
-    await expect(buttonState.isRemoveVisible).toBe(false);
+    expect(buttonState.isAddVisible).toBe(true);
+    expect(buttonState.isRemoveVisible).toBe(false);
   });
 
   test("should update cart badge correctly", async ({ authenticatedPage }) => {
@@ -68,19 +65,19 @@ test.describe("Add Single Product to Cart", () => {
     const productName = "sauce-labs-backpack";
 
     // Initially no badge
-    await expect(await inventoryPage.getCartBadgeVisibility()).toBe(false);
+    expect(await inventoryPage.getCartBadgeVisibility()).toBe(false);
 
     // Add product
     await inventoryPage.addToCart(productName);
 
     // Verify badge shows "1"
-    await expect(await inventoryPage.getCartBadgeVisibility()).toBe(true);
-    await expect(await inventoryPage.getCartCount()).toBe("1");
+    expect(await inventoryPage.getCartBadgeVisibility()).toBe(true);
+    expect(await inventoryPage.getCartCount()).toBe("1");
 
     // Remove product
     await inventoryPage.removeFromCart(productName);
 
     // Verify badge is gone
-    await expect(await inventoryPage.getCartBadgeVisibility()).toBe(false);
+    expect(await inventoryPage.getCartBadgeVisibility()).toBe(false);
   });
 });

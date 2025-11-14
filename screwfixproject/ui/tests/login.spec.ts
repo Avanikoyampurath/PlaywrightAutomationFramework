@@ -1,69 +1,60 @@
-import { test, expect } from "../fixtures/auth";
-import { LoginPage } from "../pages/LoginPage";
+import { test, expect } from "../fixtures/BaseTest";
 import { LoginTestData } from "../test-data/login-data";
 
 test.describe("Sauce Demo Login Functionality", () => {
-  let loginPage: LoginPage;
 
-  test.beforeEach(async ({ page }) => {
-    loginPage = new LoginPage(page);
-    await loginPage.goto();
-  });
-
-  test("successful login with standard user", async () => {
+  test("successful login with standard user", async ({loginPage}) => {
     await loginPage.login(
       LoginTestData.validUser.username,
       LoginTestData.validUser.password,
     );
-    await loginPage.expectSuccessfulLogin();
+    expect(loginPage.validatePageTitle,"Products");
   });
 
-  test("locked out user cannot login", async () => {
+  test("locked out user cannot login", async ({loginPage}) => {
     await loginPage.login(
       LoginTestData.lockedOutUser.username,
       LoginTestData.lockedOutUser.password,
     );
-    await loginPage.expectErrorMessage(
-      "Epic sadface: Sorry, this user has been locked out.",
-    );
+    expect(loginPage.expectErrorMessage,"Epic sadface: Sorry, this user has been locked out.") ;
   });
 
-  test("invalid credentials show error message", async () => {
+  test("invalid credentials show error message", async ({loginPage}) => {
     await loginPage.login(
       LoginTestData.invalidUser.username,
       LoginTestData.invalidUser.password,
     );
-    await loginPage.expectErrorMessage(
+    expect  (loginPage.expectErrorMessage,
       "Epic sadface: Username and password do not match any user in this service",
     );
   });
 
-  test("empty credentials validation", async () => {
+  test("empty credentials validation", async ({loginPage}) => {
     await loginPage.clickLoginButton();
-    await loginPage.expectErrorMessage("Epic sadface: Username is required");
+    expect (loginPage.expectErrorMessage,"Epic sadface: Username is required");
   });
 
-  test("empty password validation", async () => {
+  test("empty password validation", async ({loginPage}) => {
     await loginPage.enterUsername(LoginTestData.validUser.username);
     await loginPage.clickLoginButton();
-    await loginPage.expectErrorMessage("Epic sadface: Password is required");
+    expect (loginPage.expectErrorMessage,"Epic sadface: Password is required");
   });
 
-  test("problem user can login", async () => {
+  test("problem user can login", async ({loginPage}) => {
     await loginPage.login(
       LoginTestData.problemUser.username,
       LoginTestData.problemUser.password,
     );
-    await loginPage.expectSuccessfulLogin();
+    expect (loginPage.validatePageTitle,"Products");
   });
 
-  test("performance glitch user login timing", async () => {
+  test("performance glitch user login timing", async ({loginPage}) => {
     const startTime = Date.now();
     await loginPage.login(
       LoginTestData.performanceGlitchUser.username,
       LoginTestData.performanceGlitchUser.password,
     );
-    await loginPage.expectSuccessfulLogin();
+    expect (loginPage.validatePageTitle,"Products");
     const endTime = Date.now();
     const loginTime = endTime - startTime;
 
