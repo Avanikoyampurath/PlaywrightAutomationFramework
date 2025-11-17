@@ -1,7 +1,7 @@
 import { test, expect } from "../../fixtures/APIFixture";
 
 test("Get users", async ({ restClient }) => {
-  const response = await restClient.getUser();
+  const {response} = await restClient.getUser();
   expect(response.ok()).toBeTruthy();
   const body = await response.json();
   console.log(body);

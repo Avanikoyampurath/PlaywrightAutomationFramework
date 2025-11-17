@@ -22,7 +22,7 @@ export class RestClient extends BaseClientBnQ {
 
   async updateUser(overrides?: Record<string, any>) {
     const defaultPayload = readJsonFile(
-      `screwfixproject/api/rest/test-data/${this.env}/updateUser.json`,
+      `bnqproject/api/rest/test-data/${this.env}/updateUser.json`,
     );
     const payload = this.mergePayload(defaultPayload, overrides);
     const response = await this.requestContext.put(

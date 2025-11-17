@@ -1,6 +1,6 @@
 import { APIRequestContext } from "@playwright/test";
-import { BaseClient } from "../../../core/BaseClient";
-import { readJsonFile } from "../../../utils/DataReader";
+import { BaseClient } from "../../core/BaseClient";
+import { readJsonFile } from "../../utils/DataReader";
 
 export class BaseClientScrewfix extends BaseClient {
   protected env: string;
