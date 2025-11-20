@@ -1,7 +1,7 @@
 import { Page } from "@playwright/test";
-import { BasePageScrewfix } from "./BasePageScrewfix";
+import { BasePageUI } from "./BasePageUI";
 
-export class InventoryPage extends BasePageScrewfix {
+export class InventoryPage extends BasePageUI {
   // Selectors
   private readonly addToCartButtonPrefix = '[data-test="add-to-cart-';
   private readonly removeButtonPrefix = '[data-test="remove-';

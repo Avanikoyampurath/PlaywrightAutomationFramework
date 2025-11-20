@@ -1,5 +1,4 @@
 import { Page, expect } from "@playwright/test";
-import { readJsonFile } from "../utils/DataReader";
 
 export class BasePage {
   protected page: Page;

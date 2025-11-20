@@ -1,5 +1,5 @@
 import { test, expect } from "../../fixtures/APIFixture";
-import postData from "../test-data/createPostData.json";
+import postData from "../../graphql/test-data/createPostData.json";
 
 test("create new post", async ({ gqlClient }) => {
   const defaultPayload = postData.validPost;

@@ -1,12 +1,11 @@
 import { test, expect } from "../../fixtures/BaseTest";
-import { InventoryPage } from "../../pages/InventoryPage";
+
+    const productName = "sauce-labs-backpack";
 
 test.describe("Add Single Product to Cart", () => {
   test("should add single product to cart successfully", async ({
     authenticatedPage,inventoryPage
   }) => {
-    
-    const productName = "sauce-labs-backpack";
 
     // Verify initial state
     expect(await inventoryPage.getCartBadgeVisibility()).toBe(false);
@@ -37,12 +36,9 @@ test.describe("Add Single Product to Cart", () => {
     );
   });
 
-  test("should handle add to cart button state correctly", async ({
-    authenticatedPage,
+  test("should handle add to cart button state correctly", async ({inventoryPage
   }) => {
-    const inventoryPage = new InventoryPage(authenticatedPage);
-    const productName = "sauce-labs-backpack";
-
+    
     // Add product
     await inventoryPage.addToCart(productName);
 
@@ -60,10 +56,8 @@ test.describe("Add Single Product to Cart", () => {
     expect(buttonState.isRemoveVisible).toBe(false);
   });
 
-  test("should update cart badge correctly", async ({ authenticatedPage }) => {
-    const inventoryPage = new InventoryPage(authenticatedPage);
-    const productName = "sauce-labs-backpack";
-
+  test("should update cart badge correctly", async ({ inventoryPage }) => {
+    
     // Initially no badge
     expect(await inventoryPage.getCartBadgeVisibility()).toBe(false);
 
