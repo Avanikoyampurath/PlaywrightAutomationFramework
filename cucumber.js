@@ -1,14 +1,14 @@
 const options = [
   '--require-module ts-node/register',
-  '--require screwfixproject/cucumber/helper/world.ts',
-  '--require screwfixproject/cucumber/helper/hooks.ts',
-  '--require screwfixproject/cucumber/steps/**/*.ts',
+  '--require graphqlproject/cucumber/helper/world.ts',
+  '--require graphqlproject/cucumber/helper/hooks.ts',
+  '--require graphqlproject/cucumber/steps/**/*.ts',
   '--format progress'
 ].join(' ');
 
 module.exports = {
   default: [
-    'screwfixproject/cucumber/features/**/*.feature',
+    'graphqlproject/cucumber/features/**/*.feature',
     options
   ].join(' ')
 };
