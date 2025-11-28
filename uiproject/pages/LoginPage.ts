@@ -1,5 +1,6 @@
-import { Page, expect } from "@playwright/test";
+import { Page } from "@playwright/test";
 import { BasePageUI } from "uiproject/pages/BasePageUI";
+import { readJsonFile } from "../../utils/DataReader";
 
 export class LoginPage extends BasePageUI {
   private readonly baseUrl = this.uiBaseURL;
@@ -9,11 +10,12 @@ export class LoginPage extends BasePageUI {
   private readonly loginButton = '[data-test="login-button"]';
   private readonly errorMessage = '[data-test="error"]';
   private readonly inventoryHeading = ".title";
-
+  private data: any;
+  
   constructor(page: Page) {
     super(page);
     console.log(this.baseUrl);
-  }
+    }
 
   async goto() {
     await this.page.goto(this.baseUrl);
@@ -31,9 +33,11 @@ export class LoginPage extends BasePageUI {
     await this.page.click(this.loginButton);
   }
 
-  async login(username: string, password: string) {
-    await this.enterUsername(username);
-    await this.enterPassword(password);
+  async login(usertype : string) {
+    this.data=readJsonFile(`uiproject/test-data/${this.env}/loginData.json`);
+    const user = this.data[usertype];
+    await this.enterUsername(user.username);
+    await this.enterPassword(user.password);
     await this.clickLoginButton();
   }
 

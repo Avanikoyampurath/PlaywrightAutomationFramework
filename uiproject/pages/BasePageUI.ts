@@ -17,23 +17,4 @@ export class BasePageUI extends BasePage {
     console.log("running in...", this.env, "environment");
   }
 
-  async waitForElement(selector: string) {
-    await this.page.waitForSelector(selector);
-  }
-
-  async getElementText(selector: string) {
-    return await this.page.textContent(selector);
-  }
-
-  async isElementVisible(selector: string) {
-    return await this.page.isVisible(selector);
-  }
-
-  async getCurrentUrl() {
-    return this.page.url();
-  }
-
-  async expectUrlContains(text: string) {
-    await expect(this.page).toHaveURL(new RegExp(text));
-  }
 }

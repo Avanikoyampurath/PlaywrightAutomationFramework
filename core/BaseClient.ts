@@ -1,5 +1,4 @@
 import { APIRequestContext } from "@playwright/test";
-import { readJsonFile } from "../utils/DataReader";
 
 export class BaseClient {
   protected requestContext!: APIRequestContext;
