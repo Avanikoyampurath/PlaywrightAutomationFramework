@@ -2,6 +2,7 @@ import { BaseClientRestAPI} from "./BaseClientRestAPI";
 import endpoints from "../config/endpoints";
 import { readJsonFile } from "../../utils/DataReader";
 import { APIRequestContext } from "@playwright/test";
+import { test } from "@playwright/test";  
 
 export class RestClient extends BaseClientRestAPI {
   constructor(requestContext: APIRequestContext) {
@@ -10,19 +11,31 @@ export class RestClient extends BaseClientRestAPI {
 
   async createUser(overrides?: Record<string, any>) {
     const defaultPayload = readJsonFile(
-      `bnqproject/api/rest/test-data/${this.env}/createUser.json`,
+      `restapiproject/test-data/${this.env}/createUser.json`,
     );
     const payload = this.mergePayload(defaultPayload, overrides);
+
+       test.info().attachments.push({
+      name: "Request Payload",
+      body: Buffer.from(JSON.stringify(payload, null, 2)),
+      contentType: "application/json",
+    });
+    
     const response = await this.requestContext.post(
       `${this.restBaseURL}${endpoints.createUser}`,
       { data: payload },
     );
+    test.info().attachments.push({
+      name: "Response",
+      body: Buffer.from(JSON.stringify(response, null, 2)),
+      contentType: "application/json",
+    });
     return { response, payload };
   }
 
   async updateUser(overrides?: Record<string, any>) {
     const defaultPayload = readJsonFile(
-      `bnqproject/api/rest/test-data/${this.env}/updateUser.json`,
+      `restapiproject/test-data/${this.env}/updateUser.json`,
     );
     const payload = this.mergePayload(defaultPayload, overrides);
     const response = await this.requestContext.put(
