@@ -7,6 +7,8 @@ process.env.ENV = ENV;
 const envConfig = readJsonFile(`./restapiproject/config/env.${ENV}.json`);
 
 export default defineConfig({
+  timeout: 120000,
+
   use: {
     ignoreHTTPSErrors: true,
     screenshot: "only-on-failure",

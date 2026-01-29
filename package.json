@@ -18,7 +18,8 @@
   "dependencies": {
     "@playwright/test": "^1.56.1",
     "playwright": "^1.56.1",
-    "zod": "^4.1.12"
+    "zod": "^4.1.12",
+    "webdriverio": "^9.20.0"
   },
   "devDependencies": {
     "@cucumber/cucumber": "^11.3.0",
@@ -26,6 +27,7 @@
     "allure-commandline": "^2.34.1",
     "allure-playwright": "^3.4.1",
     "ts-node": "^10.9.2",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "@types/webdriverio": "^4.13.3"
   }
 }
