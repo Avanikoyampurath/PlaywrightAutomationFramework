@@ -11,7 +11,7 @@ export class BaseClientRestAPI extends BaseClient {
     super(requestContext);
     this.requestContext = requestContext;
     this.env = (process.env.ENV || "dev").toLowerCase();
-    const envConfig = readJsonFile(`bnqproject/config/env.${this.env}.json`);
+    const envConfig = readJsonFile(`restapiproject/config/env.${this.env}.json`);
     this.restBaseURL = envConfig.restBaseURL;
     this.graphqlBaseURL = envConfig.graphqlBaseURL;
 
